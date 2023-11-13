@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .all{
+            border: 10px;
+            height: 400px;
+        }
+        .aclass {
+            text-align: center;
+        }
+
+        .class {
+            
+            margin-left: 30%;
+            border: 2px solid white;
+            background-color: whitesmoke;
+            max-width: 35%;
+            max-height: 55%;
+        }
+    </style>
+</head>
+
+<body><div class="all">
+    <div class="class">
+        <header style="background-color: blue; float: top; font-size:2vw; text-align: center;">
+            <h1>Online Application Form</h1>
+        </header>
+        <p style="color: blue; font-size: x-large; text-align: center;">Application for Academic year is now
+            <b>Open!</b></p>
+        <div class="aclass">
+            <p>For Existing <b>Undergraduate </b>Applicants,</p>
+            <a href="html.html"><b>Login Here</b></a>
+            <p>For Existing <b>Graduates </b>Applicants,</p>
+            <a href="html.html"><b>Login Here</b></a>
+        </div>
+        <br>
+        <hr>
+        <form action="/Assignment 6.html" method="post" autocomplete="on">
+            <div class="form-name" style="text-align: center;">
+                <label for="fname"> </label><br>
+                <input type="text" id="fname" name="fname" placeholder="First Name *"> <br>
+            </div>
+            <div class="form-name" style="text-align: center; size: 1vw;">
+                <label for="Surname"> </label><br>
+                <input type="text" id="surname" name="surname" placeholder="Surname *"><br>
+            </div>
+            <div class="form-name" style="text-align: center; size: 1vw;">
+                <label for="Surname"> </label><br>
+                <input type="text" id="othername" name="othername" placeholder="Othername *"><br>
+            </div>
+            <div class="phone number" style="text-align: center;">
+        <label for="phone"></label><br>
+                <input type="tel" id="phone number" name="phone number" placeholder="Telephone *">
+            </div>
+            <div class="email" style="text-align: center; " ><label for=" email"> </label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Email *"><br>
+            </div>
+
+            <div class="email" style="text-align: center; " ><label for="email"> </label><br>
+                <input type="email" id="C email" name="email" placeholder="Comfirm Email *"><br>
+            </div><br>
+            <div class="form-password" style="text-align: center;">
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Password *">
+            </div><br>
+            <div class="form-password" style="text-align: center;">
+                <label for="password"></label>
+                <input type="password" name="Cpassword" id="Cpassword" placeholder="Comfirm Password *">
+            </div><br>
+            <!-- <div class="DOB" style="text-align: center;">
+                <label for="Date of Birth">Dirh of Birth:</label>
+                <input type="date">
+            </div><br>
+
+
+            <div class="sex" style="text-align: center;">
+                <label for="sex">Sex</label>
+            </div>
+
+            <div class="female" style="text-align: center;">
+                <input type="radio" id="female" name="female"> <label for="Female">Female</label>
+            </div>
+
+            <div class="male" style="text-align: center;">
+                <input type="radio" name="male" id="male"> <label for="male">Male</label>
+            </div><br> -->
+
+            <div class="Adtype" style="text-align: center;">
+                <select name="Admin type" id="Admin Type">
+                    <option value="-Select Your Admission Type-" selected>-Select Your Admission Type-</option>
+                    <option value="Undergraduate">Undergraduate</option>
+                    <option value="Graduates">Graduates</option>
+                    <option value="Postgraduate">Postgraduate</option>
+
+                </select>
+            </div><br>
+            <div class="submit" style="text-align: center;">
+                <input type="submit" value="Submit Now" style="background-color: blue;">
+            </div>
+
+            <button style="background-color: cadetblue;" type="button"
+                onclick="alert('Sorry But You Cant Go Back!')">Prev</button>
+
+
+            <button style="background-color: cadetblue; float: right;" type="button"
+                onclick="alert('Fill In Your Details First!')">Next</button>
+
+
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
